@@ -2,31 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27befa60-0f75-4e22-8b57-35003693669e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/TextFormatting.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby/errors.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby/param_formatting.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sevenbits.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_formatting.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_params.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby/text_formatting.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby/reader.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby/writer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruby/param_formatting.rb" afterPath="$PROJECT_DIR$/ruby/param_formatting.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/sevenbits.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/sevenbits.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_formatting.rb" afterPath="$PROJECT_DIR$/test/test_formatting.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruby/text_formatting.rb" afterPath="$PROJECT_DIR$/ruby/text_formatting.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TextFormatting.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379307637243" ignored="false" />
-    <file path="/text_formatting.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379307105152" ignored="false" />
+    <file path="/text_formatting.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379324459929" ignored="false" />
     <file path="/errors.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379306652833" ignored="false" />
     <file path="/input.txt" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379305104795" ignored="false" />
     <file path="/formatting_params.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379307083876" ignored="false" />
     <file path="/test_params.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379309794903" ignored="false" />
     <file path="/temp.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379307558924" ignored="false" />
-    <file path="/param_formatting.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379309377647" ignored="false" />
-    <file path="/test_formatting.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379310714198" ignored="false" />
+    <file path="/param_formatting.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379324692949" ignored="false" />
+    <file path="/test_formatting.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379321296124" ignored="false" />
     <file path="/formatter.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379310824004" ignored="false" />
+    <file path="/reader.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379324629513" ignored="false" />
+    <file path="/Writer.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379320498960" ignored="false" />
+    <file path="/writer.rb" changelist="27befa60-0f75-4e22-8b57-35003693669e" time="1379324637985" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +44,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="text_formatting.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="text_formatting.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ruby/text_formatting.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="398" selection-end="418" vertical-scroll-proportion="0.30050084">
+            <state line="17" column="5" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_formatting.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_formatting.rb">
+      <file leaf-file-name="log.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/log.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="49" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stringio.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/stringio.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+            <state line="74" column="8" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,10 +71,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test_formatting.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_formatting.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="4" selection-start="450" selection-end="450" vertical-scroll-proportion="0.325">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="argf.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/argf.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="616" column="8" selection-start="23961" selection-end="23961" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="param_formatting.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ruby/param_formatting.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="107" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+            <state line="13" column="4" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reader.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby/reader.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="24" selection-end="50" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +110,16 @@
       <file leaf-file-name="errors.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ruby/errors.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+            <state line="3" column="38" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby/writer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,18 +147,40 @@
         <option value="$PROJECT_DIR$/ruby/input.txt" />
         <option value="$PROJECT_DIR$/ruby/errors.rb" />
         <option value="$PROJECT_DIR$/ruby/formatting_params.rb" />
-        <option value="$PROJECT_DIR$/ruby/text_formatting.rb" />
-        <option value="$PROJECT_DIR$/ruby/param_formatting.rb" />
         <option value="$PROJECT_DIR$/test/test_params.rb" />
-        <option value="$PROJECT_DIR$/test/test_formatting.rb" />
         <option value="$PROJECT_DIR$/test/output.txt" />
         <option value="$PROJECT_DIR$/ruby/formatter.rb" />
+        <option value="$PROJECT_DIR$/ruby/Writer.rb" />
+        <option value="$PROJECT_DIR$/test/test_formatting.rb" />
+        <option value="$PROJECT_DIR$/ruby/text_formatting.rb" />
+        <option value="$PROJECT_DIR$/ruby/reader.rb" />
+        <option value="$PROJECT_DIR$/ruby/writer.rb" />
+        <option value="$PROJECT_DIR$/ruby/param_formatting.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1055" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>RubyResolve</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -220,7 +267,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_java_text_formatting">
+  <component name="RunManager" selected="Ruby.text_formatting">
     <configuration default="false" name="test_param_type_error" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="TextFormatting" />
@@ -523,18 +570,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1055" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25267667" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25267667" sideWeight="0.67167383" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,70 +655,91 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ruby/text_formatting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_formatting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_params.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby/param_formatting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby/errors.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@global/bin/rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/argf.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="616" column="8" selection-start="23961" selection-end="23961" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/exception.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="721" selection-end="721" vertical-scroll-proportion="0.3505843">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/standard_error.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="645" selection-end="645" vertical-scroll-proportion="0.5509182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/io.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="798" column="17" selection-start="30974" selection-end="30983" vertical-scroll-proportion="0.50417364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/stringio.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+        <state line="13" column="52" selection-start="415" selection-end="415" vertical-scroll-proportion="0.32554257">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="351" column="8" selection-start="14212" selection-end="14212" vertical-scroll-proportion="0.9549249">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/log.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="8" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby/errors.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+        <state line="3" column="38" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby/param_formatting.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="107" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+        <state line="13" column="4" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_formatting.rb">
+    <entry file="file://$PROJECT_DIR$/ruby/reader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="49" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="24" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby/text_formatting.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby/writer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -683,9 +751,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby/text_formatting.rb">
+    <entry file="file://$PROJECT_DIR$/test/test_formatting.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="398" selection-end="418" vertical-scroll-proportion="0.30050084">
+        <state line="13" column="4" selection-start="450" selection-end="450" vertical-scroll-proportion="0.325">
           <folding />
         </state>
       </provider>

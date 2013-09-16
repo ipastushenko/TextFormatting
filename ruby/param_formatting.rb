@@ -7,10 +7,10 @@ module TextFormatting
     attr_reader :open_broken, :close_broken, :eof_line_char, :tabs
 
     # create params
-    # +open_broken+:: must be String and length = 1
-    # +close_broken+:: must be String and length = 1
-    # +eof_line_char+:: must be String and length = 1
-    # +tabs+:: must be String
+    # @param open_broken [String] must be String and length = 1
+    # @param close_broken [String] must be String and length = 1
+    # @param eof_line_char [String] must be String and length = 1
+    # @param tabs [String] must be String
     # raises: ParamTypeError, ParamError
     def initialize(open_broken='{', close_broken='}', eof_line_char=';', tabs='    ')
       raise ParamTypeError unless open_broken.instance_of? String and close_broken.instance_of? String \
