@@ -1,9 +1,12 @@
 require '../ruby/errors'
+require '../ruby/i_param_formatting'
 
 # Module formatting text
 module TextFormatting
   # enum parameters
   class ParamFormatting
+    include IParamFormatting
+
     attr_reader :open_broken, :close_broken, :eof_line_char, :tabs
 
     # create params

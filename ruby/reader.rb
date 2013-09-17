@@ -1,3 +1,4 @@
+# Module formatting text
 module TextFormatting
   # The reader
   # @abstract

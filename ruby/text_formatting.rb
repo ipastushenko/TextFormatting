@@ -1,30 +1,25 @@
-require '../ruby/param_formatting'
+require '../ruby/i_param_formatting'
 require '../ruby/errors'
-
-#logger
 require 'log4r'
-include Log4r
-#logger
+require 'log4r/yamlconfigurator'
 
 # Module formatting text
 module TextFormatting
   #logger
-  logger = Logger.new 'logger_text_formatting'
-  logger.outputters = Outputter.stdout
-  #logger
+  Log4r::YamlConfigurator.load_yaml_file(File.expand_path('../../log4r/log4r', __FILE__))
 
   module_function
 
   # formatting text
   #
-  # @param input[Reader] stream of char with function IO.each_char
-  # @param output[Writer] stream of char with function IO.write
-  # @param params[ParamFormatting] parameters for formatting text
+  # @param input[io stream] stream of char with function IO.each_char
+  # @param output[io stream] stream of char with function IO.write
+  # @param params[IParamFormatting] parameters for formatting text
   # raises: IOError, NoMethodError, ParamTypeError, NoOpenBrokenError, NoCloseBrokenError
   def java_text_formatting(input, output, params)
-    logger = Logger['logger_text_formatting']
+    logger = Log4r::Logger['development']
     logger.info('start function')
-    raise ParamTypeError unless params.instance_of? ParamFormatting
+    raise ParamTypeError unless params.is_a? IParamFormatting
 
     logger.info('start convert')
     count_broken = 0
@@ -63,7 +58,7 @@ module TextFormatting
     raise NoCloseBrokenError if count_broken > 0
     logger.info('end convert')
   rescue NoOpenBrokenError
-    logger.error('Error: no open broken')
+    logger.error('no open broken')
     input.each_char {|current_char| output.write(current_char)}
     raise NoOpenBrokenError
   end
